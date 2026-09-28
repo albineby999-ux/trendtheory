@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trend Theory | Curated Looks</title>
+  <!-- Google Fonts for Classy Aesthetic -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #faf8f5;
+      --card-bg: #ffffff;
+      --text: #222222;
+      --accent: #8c7051;
+      --btn: #1a1a1a;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: 'Montserrat', sans-serif;
+      padding: 2rem 1rem;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+    }
+    h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2.8rem;
+      letter-spacing: 1.5px;
+      font-weight: 600;
+      color: var(--text);
+    }
+    header p {
+      font-size: 0.95rem;
+      color: #666;
+      margin-top: 0.5rem;
+      letter-spacing: 0.5px;
+    }
+    /* Pinterest-Optimized Responsive Grid */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .card {
+      background: var(--card-bg);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.04);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      display: flex;
+      flex-direction: column;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    }
+    .card img {
+      width: 100%;
+      height: 380px;
+      object-fit: cover;
+      display: block;
+    }
+    .card-body {
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      justify-content: space-between;
+    }
+    .tag {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--accent);
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+    }
+    .title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.35rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+    }
+    .btn-group {
+      display: flex;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+    .btn {
+      flex: 1;
+      padding: 0.65rem 0.5rem;
+      text-align: center;
+      text-decoration: none;
+      font-size: 0.8rem;
+      font-weight: 500;
+      border-radius: 6px;
+      transition: opacity 0.2s;
+    }
+    .btn:hover { opacity: 0.85; }
+    .btn-primary { background: var(--btn); color: #fff; }
+    .btn-secondary { background: #e9ecef; color: #222; }
+    footer {
+      text-align: center;
+      font-size: 0.75rem;
+      color: #888;
+      margin-top: 3.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>TREND THEORY</h1>
+    <p>Curated Festive Looks & College Essentials</p>
+  </header>
+
+  <main class="grid">
+    <!-- PRODUCT CARD 1 -->
+    <article class="card">
+      <img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=700&q=80" alt="Festive Saree Look">
+      <div class="card-body">
+        <div>
+          <span class="tag">Festive Saree</span>
+          <h2 class="title">Tissue Gold & Crimson Draped Saree</h2>
+        </div>
+        <div class="btn-group">
+          <!-- Replace # with your direct affiliate links -->
+          <a href="#" target="_blank" rel="noopener sponsored" class="btn btn-primary">Shop on Amazon</a>
+          <a href="#" target="_blank" rel="noopener sponsored" class="btn btn-secondary">Myntra Look</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- PRODUCT CARD 2 -->
+    <article class="card">
+      <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=80" alt="Minimal Jewelry Set">
+      <div class="card-body">
+        <div>
+          <span class="tag">Accessories</span>
+          <h2 class="title">Oxidized Silver Choker & Jhumka Set</h2>
+        </div>
+        <div class="btn-group">
+          <a href="#" target="_blank" rel="noopener sponsored" class="btn btn-primary">Shop on Amazon</a>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <p>© 2026 Trend Theory. As an affiliate associate, I earn from qualifying purchases.</p>
+  </footer>
+
+</body>
+</html>
